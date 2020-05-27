@@ -1,0 +1,37 @@
+body {
+  font-family: ;
+}
+
+.blue-container {
+  border: solid 1px blue;
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: center;
+}
+.green-container {
+  border: solid 10px greenyellow;
+  margin: 10px;
+}
+.heading {
+  color: deepskyblue;
+}
+
+.scores {
+  border: solid 1px black;
+  margin: 5px;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  /* justify-content: flex-end; */
+}
+
+.score-n {
+  color: black;
+  justify-self: center;
+}
+
+.score-s {
+  color: darkred;
+}

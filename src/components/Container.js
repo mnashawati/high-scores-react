@@ -3,12 +3,12 @@ import data from "../data/data";
 
 function Container() {
   return (
-    <div>
+    <div className="blue-container">
       <h1>High scores per country</h1>
       <div className="green-container">
         <div className="country">
-          {data.map((obj) => (
-            <>
+          {data.map((obj, index) => (
+            <div key={index}>
               <h2>High scores: {obj.name}</h2>
               <div className="scores">
                 {obj.scores.map((score, index) => (
@@ -18,7 +18,7 @@ function Container() {
                   </div>
                 ))}
               </div>
-            </>
+            </div>
           ))}
         </div>
       </div>
