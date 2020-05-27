@@ -27,7 +27,7 @@ h2 {
 
 .score {
   display: flex;
-  justify-content: center;
+  /* justify-content: space-between; */
   border-bottom: solid 2px black;
   margin: 10px 2px;
   padding-bottom: 10px;
@@ -36,9 +36,11 @@ h2 {
 
 .score-n {
   color: black;
-  justify-self: center;
+
+  margin: auto;
 }
 
 .score-s {
   color: darkred;
+  /* margin-right: 0; */
 }
