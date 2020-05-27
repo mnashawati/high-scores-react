@@ -17,6 +17,8 @@ function App() {
                 <div className="score" key={index}>
                   <span className="score-n">{score.n.toUpperCase()}</span>
                   <span className="score-s">{score.s.toString()}</span>
+                  {/* {"\n"} */}
+                  {/* <hr /> */}
                 </div>
               ))}
             </div>

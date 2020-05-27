@@ -3,7 +3,7 @@ body {
 }
 
 .blue-container {
-  border: solid 1px blue;
+  border: solid 2px blue;
   margin: 0 auto;
   max-width: 80%;
   text-align: center;
@@ -16,14 +16,21 @@ body {
   color: deepskyblue;
 }
 
+h2 {
+  margin: 10px;
+}
+
 .scores {
-  border: solid 1px black;
+  border: solid 2px black;
   margin: 5px;
 }
 
 .score {
   display: flex;
   justify-content: center;
+  border-bottom: solid 2px black;
+  margin: 10px 2px;
+  padding-bottom: 10px;
   /* justify-content: flex-end; */
 }
 
