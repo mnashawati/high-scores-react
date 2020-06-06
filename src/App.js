@@ -21,9 +21,9 @@ function App() {
 
   return (
     <fragment>
-      <button className="sorting-button" onClick={handleSort}>
-        Sort Ascending/Descending
-      </button>
+      <div className="sorting-button">
+        <button onClick={handleSort}>Sort Ascending/Descending</button>
+      </div>
       <div className="blue-container">
         <h1 className="heading">High Scores per Country</h1>
         <div>

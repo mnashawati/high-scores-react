@@ -2,10 +2,15 @@ body {
   font-family: ;
 }
 
+.sorting-button {
+  margin: 20px;
+  text-align: center;
+}
+
 .blue-container {
   border: solid 2px blue;
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 60%;
   text-align: center;
 }
 .green-container {
